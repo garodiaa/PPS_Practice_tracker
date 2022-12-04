@@ -5,7 +5,14 @@ using namespace std;
 int main()
 {
     fastIO;
-   
-   
+    int n;
+    cin>>n;
+    getchar();
+    while (n--)
+    {
+        string str;
+        getline(cin,str);
+        cout<<"gzuz"<<endl;
+    }
     return 0;
 }

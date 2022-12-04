@@ -5,7 +5,15 @@ using namespace std;
 int main()
 {
     fastIO;
-   
-   
+    unsigned long long n;
+    cin>>n;
+    while(n!=0)
+    {
+        int x=n%10;
+        cout<<x;
+        n/=10;
+    }
+    cout<<endl;
+    
     return 0;
 }

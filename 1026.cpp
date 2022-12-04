@@ -5,7 +5,11 @@ using namespace std;
 int main()
 {
     fastIO;
-   
-   
+    long long int a,b;
+    while(cin>>a>>b)
+    {
+    long long int x=a^b;
+    cout<<x<<endl;
+    }
     return 0;
 }

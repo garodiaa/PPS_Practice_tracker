@@ -5,7 +5,12 @@ using namespace std;
 int main()
 {
     fastIO;
-   
-   
+    string word;
+    cin>>word;
+    if(word[0]>96)
+    {
+        word[0]=word[0]-32;
+    }
+    cout<<word;
     return 0;
 }

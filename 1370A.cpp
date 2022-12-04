@@ -5,7 +5,14 @@ using namespace std;
 int main()
 {
     fastIO;
-   
-   
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        long long int n;
+        cin>>n;
+        cout<<n/2<<endl;
+    }
+    
     return 0;
 }
